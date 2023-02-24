@@ -23,7 +23,7 @@ while True:
             return a*b
         print(funmultiply(a,b))
     elif operation == 4:
-        if a and b !=0:
+        if b !=0:
             def fundivide(a, b):
                 return a / b
             print(fundivide(a, b))
