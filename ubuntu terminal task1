@@ -1,0 +1,177 @@
+home1@DESKTOP-50VB4S0:~$ nano friends.txt
+home1@DESKTOP-50VB4S0:~$ cat fiends.
+cat: fiends.: No such file or directory
+home1@DESKTOP-50VB4S0:~$ ct friedns.txt
+ct: command not found
+home1@DESKTOP-50VB4S0:~$ cat friends.txt
+Friend1
+Friend2
+Friend3
+home1@DESKTOP-50VB4S0:~$ mc friends.txt bestfriends.txt
+Command 'mc' not found, but can be installed with:
+sudo apt install mc
+home1@DESKTOP-50VB4S0:~$ mv friedns .txt bestfriends.txt
+mv: target 'bestfriends.txt' is not a directory
+home1@DESKTOP-50VB4S0:~$ mv friends.txt bestfriends.txt
+home1@DESKTOP-50VB4S0:~$ ls
+bestfriends.txt
+home1@DESKTOP-50VB4S0:~$ cat>test1.txt
+test2,test3,test4
+
+
+home1@DESKTOP-50VB4S0:~$ ls
+bestfriends.txt  test1.txt
+home1@DESKTOP-50VB4S0:~$ dirr test1
+Command 'dirr' not found, did you mean:
+  command 'dirb' from deb dirb (2.22+dfsg-5)
+  command 'dir' from deb coreutils (8.32-4.1ubuntu1)
+  command 'dirt' from deb dput-ng (1.34)
+Try: sudo apt install <deb name>
+home1@DESKTOP-50VB4S0:~$ ls test1
+ls: cannot access 'test1': No such file or directory
+home1@DESKTOP-50VB4S0:~$ del friends.txt
+Command 'del' not found, did you mean:
+  command 'dll' from deb brickos (0.9.0.dfsg-12.2)
+  command 'mdel' from deb mtools (4.0.33-1+really4.0.32-1build1)
+  command 'hdel' from deb hfsutils (3.2.6-15build2)
+  command 'delv' from deb bind9-dnsutils (1:9.18.1-1ubuntu1.2)
+  command 'wdel' from deb wput (0.6.2+git20130413-11)
+  command 'deal' from deb deal (3.1.9-12)
+  command 'dex' from deb dex (0.9.0-1)
+  command 'el' from deb oneliner-el (0.3.6-9.1)
+  command 'qdel' from deb gridengine-client (8.1.9+dfsg-10build1)
+  command 'qdel' from deb slurm-wlm-torque (21.08.5-2ubuntu1)
+  command 'delp' from deb fp-utils-3.2.2 (3.2.2+dfsg-9ubuntu1)
+Try: sudo apt install <deb name>
+home1@DESKTOP-50VB4S0:~$ rm frineds.txt
+rm: cannot remove 'frineds.txt': No such file or directory
+home1@DESKTOP-50VB4S0:~$ rm friends.txt
+rm: cannot remove 'friends.txt': No such file or directory
+home1@DESKTOP-50VB4S0:~$ rm bestfriends.txt
+home1@DESKTOP-50VB4S0:~$ ls
+test1.txt
+home1@DESKTOP-50VB4S0:~$ rm test1.txt
+home1@DESKTOP-50VB4S0:~$ ls
+home1@DESKTOP-50VB4S0:~$ cat>friends.txt
+friend1
+friend2
+friend3
+home1@DESKTOP-50VB4S0:~$ ls
+friends.txt
+home1@DESKTOP-50VB4S0:~$ ls friends.txt
+friends.txt
+home1@DESKTOP-50VB4S0:~$ cat friends.txt
+friend1
+friend2
+friend3
+home1@DESKTOP-50VB4S0:~$ cat friends.txt > bestfriends.txt
+home1@DESKTOP-50VB4S0:~$ cat bestfriends.txt
+friend1
+friend2
+friend3
+home1@DESKTOP-50VB4S0:~$ cat bestfriends.txt >> sysadmins.txt
+home1@DESKTOP-50VB4S0:~$ cat sysadmins.txt
+friend1
+friend2
+friend3
+home1@DESKTOP-50VB4S0:~$ cat bestfriends.txt
+friend1
+friend2
+friend3
+home1@DESKTOP-50VB4S0:~$ cat > bestfriends.txt
+friend4
+friend5home1@DESKTOP-50VB4S0:~$ cat bestfriends
+cat: bestfriends: No such file or directory
+home1@DESKTOP-50VB4S0:~$ cat bestfriends.txt
+friend4
+friend5home1@DESKTOP-50VB4S0:~$ cat bestfriends.txt
+friend4
+friend5home1@DESKTOP-50VB4S0:~$ cat > bestfriends.txt
+friend1
+friend2
+friend3
+friend4
+friend5
+home1@DESKTOP-50VB4S0:~$ cat bestfriends.txt
+friend1
+friend2
+friend3
+friend4
+friend5
+home1@DESKTOP-50VB4S0:~$ b*.txt
+bestfriends.txt: command not found
+home1@DESKTOP-50VB4S0:~$ ls b*.txt
+bestfriends.txt
+home1@DESKTOP-50VB4S0:~$ cat -n bestfriends.txt
+     1  friend1
+     2  friend2
+     3  friend3
+     4  friend4
+     5  friend5
+home1@DESKTOP-50VB4S0:~$ -l bestfriends.txt
+-l: command not found
+home1@DESKTOP-50VB4S0:~$ -L bestfriends.txt
+-L: command not found
+home1@DESKTOP-50VB4S0:~$ -l- bestfriends.txt
+-l-: command not found
+home1@DESKTOP-50VB4S0:~$ -l-bestfriends.txt
+-l-bestfriends.txt: command not found
+home1@DESKTOP-50VB4S0:~$ ls -l besetfriends.txt
+ls: cannot access 'besetfriends.txt': No such file or directory
+home1@DESKTOP-50VB4S0:~$ ls -l sysadmins.txt
+-rw-r--r-- 1 home1 home1 24 Mar  5 01:51 sysadmins.txt
+home1@DESKTOP-50VB4S0:~$ ls -sh sysdamins.txt
+ls: cannot access 'sysdamins.txt': No such file or directory
+home1@DESKTOP-50VB4S0:~$ ls -h sysadmins.txt
+sysadmins.txt
+home1@DESKTOP-50VB4S0:~$ ls -lh bestfriends.txt
+-rw-r--r-- 1 home1 home1 40 Mar  5 01:53 bestfriends.txt
+home1@DESKTOP-50VB4S0:~$ ls -sh bestfriendst.txt
+ls: cannot access 'bestfriendst.txt': No such file or directory
+home1@DESKTOP-50VB4S0:~$ cat bestfriends.txt
+friend1
+friend2
+friend3
+friend4
+friend5
+home1@DESKTOP-50VB4S0:~$ du -b sysadmins.txt
+24      sysadmins.txt
+home1@DESKTOP-50VB4S0:~$ du -b bestfriends.txt
+40      bestfriends.txt
+home1@DESKTOP-50VB4S0:~$ cat>cars.txt
+Mercedes
+BMW
+Opel
+Volkswagen
+Honda
+home1@DESKTOP-50VB4S0:~$ cat cars.txt
+Mercedes
+BMW
+Opel
+Volkswagen
+Honda
+home1@DESKTOP-50VB4S0:~$ du -b cars.txt
+35      cars.txt
+home1@DESKTOP-50VB4S0:~$ cp cars.txt /tmp/cars.txt
+home1@DESKTOP-50VB4S0:~$ ls /tmp/
+cars.txt
+home1@DESKTOP-50VB4S0:~$ ls /tmp/*.txt
+/tmp/cars.txt
+home1@DESKTOP-50VB4S0:~$ mv cars.txt vehicles.txt
+home1@DESKTOP-50VB4S0:~$ ls vehicles.txt
+vehicles.txt
+home1@DESKTOP-50VB4S0:~$ cat vehicles.txt
+Mercedes
+BMW
+Opel
+Volkswagen
+Honda
+home1@DESKTOP-50VB4S0:~$ mv vehicles.txt cars.txt
+home1@DESKTOP-50VB4S0:~$ diff cars.txt /tmp/cars.txt
+home1@DESKTOP-50VB4S0:~$ mv /tmp/cars.txt /tmp/vehicles.txt
+home1@DESKTOP-50VB4S0:~$ less /tmp/passwd
+/tmp/passwd: No such file or directory
+home1@DESKTOP-50VB4S0:~$ less /etc/passwd
+home1@DESKTOP-50VB4S0:~$ less /etc/passwd
+home1@DESKTOP-50VB4S0:~$ less /etc/passwd
+home1@DESKTOP-50VB4S0:~$
