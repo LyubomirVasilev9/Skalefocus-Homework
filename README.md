@@ -1,3 +1,3 @@
-# homework-
-This is my first repository.
-Learnig Git.
+# Scalefocus homework.
+Hello this is my first repository.
+    
