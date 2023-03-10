@@ -1,0 +1,9 @@
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ cat ex6.sh
+#!/bin/bash
+name="Lyubomir"
+echo "My name is: $name."
+
+uptime
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ sudo ./ex6.sh
+My name is: Lyubomir.
+ 23:42:14 up 1 day, 22:50,  0 users,  load average: 0.00, 0.00, 0.13
