@@ -1,0 +1,36 @@
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ sudo nano friends.txt
+[sudo] password for home1:
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ cat friends.txt
+Ivan
+Martin
+Pesho
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ sudo mv friends.txt bestfriends.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ ls
+bestfriends.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ sudo cp bestfriends.txt sysadmins.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ ls -f b*.txt
+bestfriends.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ wc --bytes sysadmins.txt
+18 sysadmins.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ sudo nano cars.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ sudo cp cars.txt /tmp/cars.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ ls -d *.txt
+bestfriends.txt  cars.txt  sysadmins.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ cat bestfriends.txt
+Ivan
+Martin
+Pesho
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ cat cars.txt
+Mercedes
+BMW
+Honda
+Volkswagen
+Bugatti
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ cat sysadmins.txt
+Ivan
+Martin
+Pesho
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ sudo mv /tmp/cars.txt /tmp/vehicles.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ ls
+bestfriends.txt  cars.txt  sysadmins.txt
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/BasicSyntax$ less /etc/passwd
