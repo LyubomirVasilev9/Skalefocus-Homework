@@ -1,0 +1,10 @@
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ cat ex5.sh
+#!/bin/bash
+echo "Username: $1";
+echo "Age: $2";
+echo "Full Name: $3";
+
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ sudo ./ex5.sh
+Username:
+Age:
+Full Name:
