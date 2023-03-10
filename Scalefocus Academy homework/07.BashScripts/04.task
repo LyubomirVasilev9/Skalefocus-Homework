@@ -1,0 +1,24 @@
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ cat ex4.sh
+#!/bin/bash
+echo Enter the file name:
+read FILE
+if [ -f “$FILE” ]
+  then
+    echo “$FILE is a reguler file”
+elif [ -d “$FILE” ]
+  then
+    echo “$FILE is a directory”
+else
+    echo “$FILE is another type of file”
+fi
+ls -l $FILE
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ sudo ./ex4.sh
+Enter the file name:
+cars.txt
+“cars.txt is another type of file”
+ls: cannot access 'cars.txt': No such file or directory
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ sudo ./ex4.sh
+Enter the file name:
+ex3.sh
+“ex3.sh is another type of file”
+-rwxr-xr-x 1 root root 129 Mar  9 02:30 ex3.sh
