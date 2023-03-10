@@ -1,0 +1,17 @@
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ cat ex3.sh
+#!/bin/bash
+DevOpsCycle=(plan code build test release deploy operate monitor)
+for DOC in "${DevOpsCycle[@]}"
+do
+        echo $DOC
+done
+
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ sudo ./ex3.sh
+plan
+code
+build
+test
+release
+deploy
+operate
+monitor
