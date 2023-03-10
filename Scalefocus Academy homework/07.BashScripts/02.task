@@ -1,0 +1,6 @@
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ cat ex2.sh
+#!/bin/bash
+info="I love learning aboute DevOps."
+echo $info
+home1@DESKTOP-50VB4S0:/home/Lyubo/Homework/ShellScripts$ sudo ./ex2.sh
+I love learning aboute DevOps.
