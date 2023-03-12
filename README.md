@@ -1,3 +1,3 @@
-# Scalefocus homework.
-Hello this is my first repository.
+# Scalefocus Academy Homework.
+Hello this is my repository for Scalefocus Academy Homework.
     
